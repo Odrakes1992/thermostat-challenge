@@ -2,10 +2,20 @@
 <html>
   <head>
     <title>Thermostat</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <section>
-      <h1 id="temperature"></h1>
+      <h1>Current temperature: <span id="current-temperature"></span> degrees</h1>
+      <select id="current-city">
+        <option value="London">London</option>
+        <option value="New york">New York</option>
+        <option value="Paris">Paris</option>
+        <option value="Tokyo">Tokyo</option>
+      </select>
+    </section>
+    <section>
+     <h1 id="temperature"></h1>
       <p>
         <button id="temperature-up">+</button>
         <button id="temperature-down">-</button>
@@ -16,5 +26,6 @@
       </p>
     </section>
     <script src="src/thermostat.js"></script>
+    <script src="interface.js"></script>
   </body>
 </html>

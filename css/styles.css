@@ -1,0 +1,23 @@
+
+
+
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: rgb(38, 35, 190);
+}
+
+.high-usage {
+  color: red;
+}
+
+body {
+  background-color: rgb(184, 211, 186);
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
